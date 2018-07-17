@@ -1,0 +1,35 @@
+<indicators>
+   <indicator>
+      <positionX> 250 </positionX> 
+	  <positionY> 120 </positionY> 
+	  <type>RoundLED</type>
+	  <portType>in</portType> 
+	  <portNum> 1 </portNum> 
+	  <title> out[0] </title>
+	  <colorTrue> 0 </colorTrue>
+	  <colorFalse> 1000 </colorFalse>
+	  <bitNum> 0 </bitNum>
+   </indicator>
+   <indicator>
+      <positionX> 250 </positionX> 
+	  <positionY> 220 </positionY> 
+	  <type>RoundLED2</type>
+	  <portType>in</portType> 
+	  <portNum> 1 </portNum> 
+	  <title> in[1] </title>
+	  <colorTrue> 0 </colorTrue>
+	  <colorFalse> 300000 </colorFalse>
+	  <bitNum>1</bitNum>
+   </indicator>
+   <indicator>
+      <positionX> 250 </positionX> 
+	  <positionY> 320 </positionY> 
+	  <type>SquareLED2</type>
+	  <portType>out</portType> 
+	  <portNum> 0 </portNum> 
+	  <title> in[0] </title>
+	  <colorTrue> 200000 </colorTrue>
+	  <colorFalse> 2000000 </colorFalse>
+	  <bitNum>2</bitNum>
+   </indicator>
+</indicators>
