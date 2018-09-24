@@ -2,18 +2,18 @@
    <indicator>
       <positionX> 250 </positionX> 
 	  <positionY> 120 </positionY> 
-	  <type>RoundLED</type>
+	  <type>RoundLED2</type>
 	  <portType>in</portType> 
 	  <portNum> 1 </portNum> 
 	  <title> out[0] </title>
 	  <colorTrue> 0 </colorTrue>
 	  <colorFalse> 1000 </colorFalse>
-	  <bitNum> 0 </bitNum>
+	  <bitNum>0</bitNum>
    </indicator>
    <indicator>
       <positionX> 250 </positionX> 
 	  <positionY> 220 </positionY> 
-	  <type>RoundLED2</type>
+	  <type>Numeric</type>
 	  <portType>in</portType> 
 	  <portNum> 1 </portNum> 
 	  <title> in[1] </title>
