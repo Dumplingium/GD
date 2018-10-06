@@ -2,30 +2,36 @@
    <indicator>
       <positionX> 250 </positionX> 
 	  <positionY> 120 </positionY> 
-	  <type>RoundLED2</type>
+	  <type>Numeric</type>
 	  <portType>in</portType> 
 	  <portNum> 1 </portNum> 
 	  <title> out[0] </title>
 	  <colorTrue> 0 </colorTrue>
 	  <colorFalse> 1000 </colorFalse>
+	  <minRange>10</minRange>
+	  <difRange>20</difRange>
 	  <bitNum>0</bitNum>
    </indicator>
    <indicator>
       <positionX> 250 </positionX> 
 	  <positionY> 220 </positionY> 
-	  <type>Numeric</type>
+	  <type>Vertical Slide</type>
 	  <portType>in</portType> 
 	  <portNum> 1 </portNum> 
 	  <title> in[1] </title>
+	  <minRange>-20</minRange>
+	  <difRange>120</difRange>
 	  <colorTrue> 0 </colorTrue>
 	  <colorFalse> 300000 </colorFalse>
 	  <bitNum>1</bitNum>
    </indicator>
    <indicator>
-      <positionX> 250 </positionX> 
+      <positionX> 10 </positionX> 
 	  <positionY> 320 </positionY> 
-	  <type>SquareLED2</type>
+	  <type>Horizontal Slide</type>
 	  <portType>out</portType> 
+	  <minRange>10</minRange>
+	  <difRange>7</difRange>
 	  <portNum> 0 </portNum> 
 	  <title> in[0] </title>
 	  <colorTrue> 200000 </colorTrue>
