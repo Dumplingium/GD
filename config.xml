@@ -2,12 +2,12 @@
    <indicator>
       <positionX> 250 </positionX> 
 	  <positionY> 120 </positionY> 
-	  <type>Numeric</type>
+	  <type>RoundLED</type>
 	  <portType>in</portType> 
 	  <portNum> 1 </portNum> 
 	  <title> out[0] </title>
-	  <colorTrue> 0 </colorTrue>
-	  <colorFalse> 1000 </colorFalse>
+	  <colorTrue> FFFFFF </colorTrue>
+	  <colorFalse> 000000 </colorFalse>
 	  <minRange>10</minRange>
 	  <difRange>20</difRange>
 	  <bitNum>0</bitNum>
