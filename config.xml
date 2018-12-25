@@ -4,7 +4,7 @@
 	  <portType>in</portType>
 	  <portNum> 0 </portNum> 
 	  <bitNum> 0 </bitNum> 
-	  <title> in0</title> 
+	  <title>RoundLED</title> 
       <positionX> 200 </positionX> 
 	  <positionY> 10 </positionY> 
 	  <colorTrue> FFFFFF </colorTrue>
@@ -13,8 +13,8 @@
    <indicator>
 	  <type>Horizontal Slide</type>
 	  <portType>out</portType> 
-	  <portNum> 1 </portNum> 
-	  <title>out1</title>
+	  <portNum> 0 1 2 3</portNum> 
+	  <title>Horizontal Slide</title>
       <positionX> 200 </positionX> 
 	  <positionY> 50 </positionY> 
 	  <minRange>10</minRange>
@@ -24,7 +24,7 @@
 	  <type>Meter</type>
 	  <portType>out</portType> 
 	  <portNum> 0 </portNum> 
-	  <title>out0</title>
+	  <title>Meter</title>
       <positionX> 202 </positionX> 
 	  <positionY> 110 </positionY> 
 	  <minRange>0</minRange>
@@ -33,18 +33,19 @@
    <indicator>
 	  <type>Numeric</type>
 	  <portType>out</portType> 
-	  <portNum> 2 </portNum> 
-	  <title>out2</title>
+	  <portNum> 0 1 2 3 </portNum> 
+	  <title>Numeric</title>
       <positionX> 190 </positionX> 
 	  <positionY> 220 </positionY> 
+	  <wigth>50</wigth>
    </indicator>
    <indicator>
 	  <type>SquareLED</type>
 	  <portType>in</portType> 
 	  <portNum> 0 </portNum> 
 	  <bitNum>1</bitNum>
-	  <title> in2</title>
-      <positionX> 225 </positionX> 
+	  <title>SquareLED</title>
+      <positionX> 290 </positionX> 
 	  <positionY> 10 </positionY> 
 	  <colorTrue> FFFFFF </colorTrue>
 	  <colorFalse> 000000 </colorFalse>
