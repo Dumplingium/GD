@@ -23,7 +23,7 @@
    <indicator>
 	  <type>Meter</type>
 	  <portType>out</portType> 
-	  <portNum> 0 </portNum> 
+	  <portNum> 0 1 2 3 </portNum> 
 	  <title>Meter</title>
       <positionX> 202 </positionX> 
 	  <positionY> 110 </positionY> 
