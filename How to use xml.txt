@@ -8,6 +8,8 @@
 	  <title> Indicator </title>          //Подпись над индикатором, ("")
 	  <ColorTrue> 100 </ColorTrue>  	   //Цвет активного индикатора, (0)
 	  <ColorFalse> 10 </ColorFalse> 	  //Цвет неактивного индикатора, (0)
+	  <wigth>
+	  <heigth>
    </indicator>
 </indicators>
 
